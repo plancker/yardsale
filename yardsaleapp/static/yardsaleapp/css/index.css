@@ -1,0 +1,11 @@
+.jumbotron {
+  height:24em;
+  background-image: url('../images/jumbotron.png');
+}
+
+/* Grid Settings */
+
+.myRow {
+	margin-top:4em;
+	height: 12em;
+}

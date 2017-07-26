@@ -1,0 +1,26 @@
+html, body {
+    height:100%;
+}
+
+.jumbotron {
+  height:16.4375em;
+  background-image: url('../images/cover.png');
+}
+
+#channel-container, #channel-container > row{
+  height: 100%;
+}
+.channel-menu{
+  list-style:none;
+  margin-left:-4.4em;
+}
+.menu-item {
+  display:inline;
+  margin-left: 2em;
+}
+
+.profile-picture {
+  height:11.5625em;
+  width:11.185em;
+  margin-left:-1em;
+}

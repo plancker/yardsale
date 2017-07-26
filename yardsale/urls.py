@@ -20,4 +20,5 @@ from yardsaleapp import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.index, name='index'),
+    url(r'^channel/', views.channel, name='channel'),
 ]

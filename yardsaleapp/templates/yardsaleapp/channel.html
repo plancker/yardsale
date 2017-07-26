@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link href="{% static 'yardsaleapp/css/bootstrap.min.css' %}" rel="stylesheet">
     <link href="{% static 'yardsaleapp/css/styles.css' %}" rel="stylesheet">
-    <link href="{% static 'yardsaleapp/css/index.css' %}" rel="stylesheet">
+    <link href="{% static 'yardsaleapp/css/channel.css' %}" rel="stylesheet">
   </head>
   <body>
     <h1>yardsale</h1>
@@ -55,28 +55,43 @@
 
     <div class="jumbotron">
       <div class="container">
-        <h3 id="jumbotron-text" class="text-center">Ashoka Market Place</h3>
+        <h3 id="jumbotron-text" class="text-center">Ophelia's Handicrafts</h3>
       </div>
     </div>
 
-    <div class="container-fluid myRow">
+    <div class="container" id="channel-container">
       <div class="row">
-        <div class="col-md-3">
-          <h4>Most Popular</h4>
-          <h4>Products</h4>
+        <div class="col-md-6 col-md-offset-2">
+          <div class="row">
+            <h4>Opehelia Franklin</h4>
+          </div>
+          <div class="row">
+            <ul class="channel-menu">
+              <li class="menu-item"><a>About</a></li>
+              <li class="menu-item"><a>Products</a></li>
+              <li class="menu-item"><a>Contact</a></li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-
-    <div class="container-fluid myRow">
       <div class="row">
-
-        <div class="col-md-3">
-          <h4>Most Popular</h4>
-          <h4>Sellers</h4>
+        <div class="col-md-offset-2 col-md-8" style="background-color:#979797; height:0.5px; margin-top:-0.4em;">
         </div>
       </div>
+      <div class="row" style="margin-top:1em;">
+        <div class="col-md-2 col-md-offset-2 channel-content">
+          <img src="{% static  'yardsaleapp/images/profile.jpg' %}" class="img-rounded profile-picture">
+        </div>
+        <div class="col-md-6">
+          <p>While some people really seem to have a knack for barbequing – always grilling up a perfect meal – for the rest of us, it is something that must be learned, not something that just comes naturally.
+            Believe it or not.</p>
+        </div>
+      </div>
+
+
     </div>
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
